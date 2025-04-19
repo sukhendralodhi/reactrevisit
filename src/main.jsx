@@ -4,9 +4,11 @@ import './index.css'
 import App from './App.jsx'
 import Project1 from './components/project1.jsx'
 import Project2 from './components/Project2.jsx'
+import Memomize from './components/Memomize.jsx'
 
 createRoot(document.getElementById('root')).render(
  
-    <Project2 />
+    // <Project2 />
+    <Memomize />
   // </StrictMode>,
 )
