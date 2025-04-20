@@ -6,11 +6,13 @@ import Project1 from './components/project1.jsx'
 import Project2 from './components/Project2.jsx'
 import Memomize from './components/Memomize.jsx'
 import CurrencyConverter from './components/currency-converter/CurrencyConverter.jsx'
+import GetWidth from './customhookcomponents/GetWidth.jsx'
 
 createRoot(document.getElementById('root')).render(
  
     // <Project2 />
     // <Memomize />
-    <CurrencyConverter />
+    // <CurrencyConverter />
+    <GetWidth />
   // </StrictMode>,
 )
