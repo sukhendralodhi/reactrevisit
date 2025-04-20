@@ -5,6 +5,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Blog from "./components/about/Blog";
 import News from "./components/about/News";
+import Gitub from "./components/Github";
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: 'contact',
                 element: <Contact />
+            },
+            {
+                path: 'github',
+                element: <Gitub />
             }
         ]
     }

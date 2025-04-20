@@ -49,6 +49,14 @@ function Header() {
                   Contact Us
                 </NavLink>
               </li>
+              <li>
+                <NavLink 
+                  to="/github"
+                  className={({isActive}) => `block py-2 pr-4 pl-3 text-gray-700 hover:text-orange-700 lg:p-0 ${isActive ? 'text-orange-700' : ''}`}
+                >
+                  Github
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
