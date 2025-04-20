@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Blog from "./components/about/Blog";
 import News from "./components/about/News";
 import Gitub from "./components/Github";
+import { githubInfoLoader } from "./components/githubInfoLoader";
 
 
 const router = createBrowserRouter([
@@ -36,9 +37,12 @@ const router = createBrowserRouter([
                 path: 'contact',
                 element: <Contact />
             },
+            // github info loader   
             {
                 path: 'github',
-                element: <Gitub />
+                element: <Gitub />,
+                loader: githubInfoLoader
+
             }
         ]
     }
